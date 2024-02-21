@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title {
+    margin-top: 15px;
+    color: #2c7ae7;
+}
+
+body {
+    font-family: "Istok Web", sans-serif;
+}
+
+
+.sub-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: Montserrat, sans-serif;
+    color: #3b3b44;
+
+}
+
+header {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    flex-wrap: nowrap;
+    gap: 30px;
+    margin-top: 100px;
+   
+}
+   
+
+.context {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #d4d4e1;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #303036;
+    height: 350;
+    padding: 2rem 1.5rem;
+    transition: all 0.25s;
+    margin-bottom: 1.5rem;
+    
+  
+}
+
+#photo {
+    width: 4.6875rem;
+    height: 4.6875rem;
+    min-width: 4.6875rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1.25rem;
+    background-color: #ffffff;
+}
+
+.identity {
+    display: flex;
+  
+  
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 0.125rem;
+}
+
+.text {
+    display: block;
+    color: #63636b;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+.context:hover {
+   cursor: pointer;
+    box-shadow: 2px 4px 20px 1px rgba(45,45,45,0.13 );
+}
+
+.end {
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    border: 1px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #568ad3 0, #0f58bd 100%);
+    color: white;
+    margin-inline: auto;
+    padding: 15px;
+    margin-top: 100px;
+}

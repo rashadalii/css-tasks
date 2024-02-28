@@ -1,0 +1,112 @@
+body {
+    font-family: "Chivo",sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+
+.title h2 {
+    color: #18304B;
+    font-size: 40px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -.04em;
+    margin-bottom: 12px;
+}
+
+
+.title {
+    margin-bottom: 35px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+.title span {
+    color: #007AFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.nav-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    position: relative;
+    border-bottom: 1px solid rgba(164,172,169,0.4);
+    justify-content: center;
+    gap: 30px;
+}
+.nav-link {
+    font-family: "Chivo",sans-serif;
+    color: #B6B9BC;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+    padding: 17px 5px;
+    padding-top: 0;
+    border-bottom: 4px solid transparent;
+}
+
+.context {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    border: 1px solid transparent;
+    padding: 30px 20px 25px 20px;
+}
+
+.context span {
+    padding: 6px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 26px;
+    margin-bottom: 40px;
+    display: inline-block; 
+    color: #F27E42;
+    background: rgba(242,126,66,0.26);
+}
+.context a {
+    font-size: 24px;
+    font-weight: 600;
+    color: #071112;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+    display: block;
+}
+
+.find-more {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+
+    background: #007AFF;
+    font-family: "Chivo",sans-serif;
+    padding: 26px 35px;
+    color: #fff ;
+    cursor: pointer;
+    font-size: 18px ;
+    font-weight: 600 ;
+    border-radius: 5px;
+   
+}
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    color: #76787A;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 23px;
+}

@@ -1,0 +1,51 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+}
+.align-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#hero {
+    background-image: url(https://preview.colorlib.com/theme/express/images/hero_1.jpg.webp);
+    position: relative;
+    height: 100vh;
+    min-height: 700px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+#hero::before {
+   
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text-title {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff ;
+    margin-top: 300px;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 3rem ;
+}
